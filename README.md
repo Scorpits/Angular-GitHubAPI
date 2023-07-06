@@ -26,10 +26,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-### INFORMAÇÕES ###
+# INFORMAÇÕES
 
 ## PESQUISAR REPOSITORIOS DO GITHUB VIA ANGULAR
 
 Um simples projeto de Angular que faz requisições usando ClientHttpModule para consumir uma API e mostrar as informações dela.
 Basta pesquisar uma palavra-chave que ele irá mostrar repositórios relacionados.
 
+Por exemplo: Ao pesquisar a palavra 'bootstrap' ele irá retornar vários cards de repositórios relacionados
+a palavra de pesquisacontendo algumas informações como contagem de estrelas, um link para o próprio repositório, 
+linguagem principal e etc...
+
+Ele usa as bibliotecas Angular Material para deixar o site um pouquinho mais bonito, e a Ngx-Paginator para fazer um paginador.
+Ah, e ele usa o Angular CLI 16.1.3.

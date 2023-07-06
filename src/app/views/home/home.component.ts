@@ -11,8 +11,9 @@ import { paginationInformation } from 'src/app/shared/models/paginator.model';
 
 export class HomeComponent {
   // opcoes do paginator
-  private paginaInicial:number = 1;
-  private itensPorPagina:number = 12;
+  // listados aqui para personalizar mais facilmente
+  private paginaInicial:number = 1; // indica por qual pagina comecar
+  private itensPorPagina: number = 12; // indica o numero de elementos por pagina
 
   // elementos da paginacao
   public paginator:paginationInformation = new paginationInformation(this.paginaInicial, this.itensPorPagina);
@@ -37,7 +38,7 @@ export class HomeComponent {
         if(data.total_count > 1000)
           this.paginator.totalCount = 1000;
         else
-          this.paginator.totalCount = data.total_count;
+          this.paginator.totalCount = data.total_count; //caso nao tenha mais de 1000, mostrar todos
       },
       error:(error) => {
         this.mensagemErro = error;
