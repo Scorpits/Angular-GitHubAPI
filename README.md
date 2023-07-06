@@ -39,3 +39,12 @@ linguagem principal e etc...
 
 Ele usa as bibliotecas Angular Material para deixar o site um pouquinho mais bonito, e a Ngx-Paginator para fazer um paginador.
 Ah, e ele usa o Angular CLI 16.1.3.
+
+Algumas dificuldades e desafios foi entender como funcionar uma framework, e como fazer a consumação de api, já que ainda não
+estudei isso na faculdade e tive que ler vários textos e ver vários vídeos de como fazer isso. Mas acredito ter entendido o
+básico e ter feito algo relativamente decente.
+
+Acredito que se eu aprender mais a fundo sobre o framework Angular e aprender mais princípios e boas práticas de códigos eu
+possa melhorar bastante esse projeto, e para isso estou disposto para aprender mais e mais.
+No fim, foi uma experiência muito boa e aprendi muitas coisas bem interessantes que com certeza vão adicionar mais para
+a minha experiência no mundo de development! :)
